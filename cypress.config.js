@@ -1,11 +1,11 @@
 const { defineConfig } = require("cypress");
 
 module.exports = defineConfig({
+  projectId: "f5nnsk",
   e2e: {
     setupNodeEvents(on, config) {
       // implement node event listeners here
     },
-    video: true,
     video: true,
     reporter: 'mochawesome',
     reporterOptions: {
